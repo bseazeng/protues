@@ -1,0 +1,34 @@
+C51 COMPILER V9.54   LED_2                                                                 08/08/2017 00:47:37 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE LED_2
+OBJECT MODULE PLACED IN led_2.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE led_2.c OPTIMIZE(8,SPEED) DEBUG OBJECTEXTEND PRINT(.\Listings\led_2.lst)
+                    - TABS(2)
+
+line level    source
+
+   1          #include <reg51.H>
+   2          sbit K1=P3^0;
+   3          sbit L1=P1^0;
+   4          void main(void)
+   5          {
+   6   1        while(1)
+   7   1        {
+   8   2          L1=K1;
+   9   2        }
+  10   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      6    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
