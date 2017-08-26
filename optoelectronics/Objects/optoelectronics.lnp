@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\7.obj" 
+TO ".\Objects\optoelectronics" 
+PRINT(".\Listings\optoelectronics.m51")
